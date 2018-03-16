@@ -1,5 +1,5 @@
 1. Pagination
-2. Sample snippet
+2. Snippet markdown not formatting
 3. Author details
 4. Disqus integration
 5. Test a proper .Rmd with math equations and html file

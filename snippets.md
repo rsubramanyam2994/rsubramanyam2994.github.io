@@ -1,7 +1,7 @@
 ---
 title: Snippets
 layout: collection
-permalink: /Snippets/
+permalink: /snippets/
 collection: snippets
 entries_layout: grid
 ---

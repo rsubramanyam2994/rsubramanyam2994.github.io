@@ -53,24 +53,22 @@ feed:
 # tag_archive_path: "/tags/#"
 
 collections:
+- snippets
+
+collections:
   snippets:
     output: true
-    permalink: /:collection/:path/
 
-defaults:
-  - scope:
-      path: "_posts"
-      type: posts
-    values:
-      layout: post
-      comments: true
-      share: true
-  - scope:
-      path: "_snippets"
-      type: snippets
-    values:
-      layout: post
-      comments: true
-      share: true
+# defaults:
+#   - scope:
+#       path: "_posts"
+#       type: posts
+#     values:
+#       layout: post
+#   - scope:
+#       path: "_snippets"
+#       type: snippets
+#     values:
+#       layout: collection
 
 # Collections
