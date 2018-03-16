@@ -1,0 +1,7 @@
+1. Pagination
+2. Sample snippet
+3. Author details
+4. Disqus integration
+5. Test a proper .Rmd with math equations and html file
+6. Add blog title, description and logo
+7. Add github and linkedin link

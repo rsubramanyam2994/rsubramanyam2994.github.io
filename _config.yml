@@ -49,8 +49,13 @@ markdown: kramdown
 feed:
   path: atom.xml
 
-category_archive_path: "/categories/#"
-tag_archive_path: "/tags/#"
+# category_archive_path: "/categories/#"
+# tag_archive_path: "/tags/#"
+
+collections:
+  snippets:
+    output: true
+    permalink: /:collection/:path/
 
 defaults:
   - scope:
@@ -58,4 +63,14 @@ defaults:
       type: posts
     values:
       layout: post
+      comments: true
       share: true
+  - scope:
+      path: "_snippets"
+      type: snippets
+    values:
+      layout: post
+      comments: true
+      share: true
+
+# Collections
